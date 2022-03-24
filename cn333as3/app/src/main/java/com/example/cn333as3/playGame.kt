@@ -83,7 +83,7 @@ fun Greeting1(name: String){
                 }
                else {
                     intent2.putExtra("Random",randomn.toString())
-                    intent2.putExtra("Guess",guess)
+                    intent2.putExtra("Guess",guess.toString())
                     context2.startActivity(intent2)
                 }
                 text2.value = "Min : $minn   || Max : $maxn"
