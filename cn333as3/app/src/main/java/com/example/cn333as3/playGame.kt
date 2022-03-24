@@ -67,7 +67,7 @@ fun Greeting1(name: String){
         click = 0
     }*/
 
-    fun algorithm() {
+    fun inGame() {
         if(guess==0) head.value = ""
 
         if (true) {
@@ -142,7 +142,7 @@ fun Greeting1(name: String){
         )
 
 
-        Button( onClick = { algorithm() } ) {
+        Button( onClick = { inGame() } ) {
                 enter.value = "check"
                 Text(enter.value)
         }
