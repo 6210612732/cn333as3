@@ -32,7 +32,7 @@ class endGame : ComponentActivity() {
         var maxn: Int = 1001
         var intent = intent
         randomn2 = intent.getStringExtra("Random").toString().toInt()
-        guess2 = intent.getStringExtra("Random").toString().toInt()
+        guess2 = intent.getStringExtra("Guess").toString().toInt()
         super.onCreate(savedInstanceState)
         setContent {
             Cn333as3Theme {
