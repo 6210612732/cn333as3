@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cn333as3</string>
+    <string name="title_activity_play_game">playGame</string>
+    <string name="title_activity_end_game">endGame</string>
+</resources>
